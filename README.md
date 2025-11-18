@@ -55,7 +55,7 @@ AetherServe 是一个轻量级、美观且功能丰富的 HTTP 文件服务器�
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/astralwaveio/aether_serve.git
+git clone https://github.com/astralwaveorg/aether_serve.git
 cd aether_serve
 ```
 
@@ -134,7 +134,7 @@ sudo apt install libmagic1 -y
 sudo mkdir -p /var/www/aetherserve
 sudo chown -R your_user:your_group /var/www/aetherserve
 cd /var/www/aetherserve
-sudo git clone https://github.com/astralwaveio/aether_serve.git .
+sudo git clone https://github.com/astralwaveorg/aether_serve.git .
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -342,7 +342,7 @@ build-backend = "setuptools.build_meta"
 name = "aetherserve"
 version = "0.1.0"
 authors = [
-  { name="astralwaveio", email="your@example.com" }
+  { name="astralwaveorg", email="your@example.com" }
 ]
 description = "A clean and simple HTTP file server."
 readme = "README.md"
@@ -363,8 +363,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/astralwaveio/aether_serve"
-"Bug Tracker" = "https://github.com/astralwaveio/aether_serve/issues"
+Homepage = "https://github.com/astralwaveorg/aether_serve"
+"Bug Tracker" = "https://github.com/astralwaveorg/aether_serve/issues"
 
 [project.scripts]
 aetherserve = "aetherserve.app:run_server"
